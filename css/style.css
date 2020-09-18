@@ -1,0 +1,784 @@
+/*
+.box
+{
+    background: black;
+   /* height: 299px;*/
+   /* width: 400px;
+    margin: auto;
+    */
+    /*display: flex;
+    justify-content: flex-end;
+    align-items: center;*/
+}
+*/
+
+{
+    padding: 0;
+    margin: 0;
+}
+
+.hvr-effect
+{
+	position: relative;
+	overflow:hidden;
+}
+
+.img
+{
+	transition:all 0.3s ease;
+}
+.ball
+{
+	height: 100%;
+    width: 100%;
+    background:#80808069;
+    position: absolute;
+    left: 0;
+    top: 0;
+    transition: all 0.3s ease;
+    transform: scale(0.5);
+    opacity: 0;
+}
+   
+}
+
+
+
+.hvr-effect2
+{
+	position: absolute;
+}
+
+.hvr-effect2  h2
+{
+	position: absolute;
+    bottom: 30px;
+    left: 35px;
+    transition: all 0.4s linear;
+    opacity: 0;
+    color: #f9f0f0;
+}
+
+.hvr-effect2:hover h2 
+{
+    bottom:50px;
+    transition: all 0.3s linear;
+    opacity: 1;
+}
+
+.hvr-effect2 p
+{
+ position: absolute;
+	bottom: 0;
+	color: antiquewhite;
+	left: 35px;
+	transition: all 0.5s linear;
+	opacity: 0;
+}
+.hvr-effect2:hover p
+{
+    bottom:30px;
+    transition: all 0.3s linear;
+    opacity: 1;
+}
+.hvr-effect2 ul
+{
+ position: absolute;
+ top: 30px;
+ right:30px;
+ transition: all 0.3s linear;
+ opacity:0;
+
+}
+  
+.hvr-effect2:hover ul
+{
+ 
+ top: 50px;
+ opacity:1;
+
+}  
+
+.hvr-effect2 ul li
+{
+ padding:5px;
+}
+
+.hvr-effect2 ul li a
+{
+ 
+    width: 28px;
+    height: 28px;
+    display: block;
+    color: white;
+    background:#1acb22;
+    text-align: center;
+    line-height: 28px;
+    text-decoration: none;
+
+}
+
+.hvr-effect2 ul li a:hover
+{
+
+}
+
+.hvr-effect2one
+{  
+	position: absolute;
+    bottom: 9px;
+    left: 0;
+    background: #fff;
+    transition: .5s linear;
+    opacity: 0;
+    width: 100%;
+    height: 1px;
+    transform: scaleX(0.9)
+
+}
+
+.hvr-effect2:hover .hvr-effect2one
+{
+	bottom: 20px;
+    opacity: 1;
+	transform: scaleX(0.9);
+
+}
+.hvr-effect2two
+{
+	
+position: absolute;	
+bottom: 10px;	
+left: 0;	
+background: #fff;
+height: 1px;	
+width: 100%;
+opacity:0;
+transform: scaleX(0.9);
+transition: all 0.5s linear;
+}
+
+.hvr-effect2:hover .hvr-effect2two
+{
+	top:28px;
+	transform: scaleX(0.9);
+	opacity:1;
+
+}
+.hvr-effect2three
+{
+	position: absolute;
+	top: 0px;
+	left:22px;
+	background: #fff;
+	height:100%;
+	width: 1px;
+	transition: all 0.5s linear;
+	transform: scaleY(0.9);
+	opacity:0;
+}
+.hvr-effect2:hover .hvr-effect2three
+{
+	left: 28px;
+    transform: scale(0.9);
+    opacity: 1;
+
+}
+.hvr-effect2four
+{
+position: absolute;	
+top: 0px;
+right:30px;	
+background: #fff;	
+height:100%;
+width: 1px;
+transform: scaleX(0.9);
+transition: all 0.5s linear;
+opacity:0;
+}
+
+.hvr-effect2:hover .hvr-effect2four
+{
+	right:30px;
+    transform: scale(0.9);
+    opacity: 1;
+   
+}
+
+/*hve-efect1*/
+.hvr-effect1:hover .ball
+{
+ transform:scale(1);
+ opacity:1;
+}
+
+.hvr-effect1:hover .img
+{
+	 transform:scale(1.1);
+}
+
+.hvr-effect1{
+	position: relative;
+}
+
+.hvr-effect1 h1
+{
+    position: absolute;
+    bottom: 30px;
+    left: 42px;
+    transition: all 0.4s linear;
+    opacity: 0;
+    color: #f9f0f0;
+}
+
+
+.hvr-effect1:hover h1 
+{
+    bottom:30px;
+    transition: all 0.3s linear;
+    opacity: 1;
+}
+
+.hvr-effect1 p
+{
+ position: absolute;
+	bottom: 0;
+	color: antiquewhite;
+	left: 35px;
+	transition: all 0.5s linear;
+	opacity: 0;
+}
+.hvr-effect1:hover p
+{
+    bottom:30px;
+    transition: all 0.3s linear;
+    opacity: 1;
+}
+.hvr-effect1 ul
+{
+ position: absolute;
+ top: 30px;
+ right:30px;
+ transition: all 0.3s linear;
+ opacity:0;
+
+}
+  
+ .hvr-effect1:hover ul
+{
+ 
+ top: 50px;
+ opacity:1;
+
+}  
+
+.hvr-effect1 ul li
+{
+ padding:5px;
+}
+
+.hvr-effect1 ul li a
+{
+ 
+    width: 28px;
+    height: 28px;
+    display: block;
+    color: white;
+    background: #9C27B0;
+    text-align: center;
+    line-height: 28px;
+    text-decoration: none;
+
+}
+
+.hvr-effect1 ul li a:hover
+{
+
+}
+
+.hvr-effect1one{
+	position: absolute;
+    top: 8px;
+    left: 0px;
+    background: #fff;
+    height: 1px;
+    width: 100%;
+    transform: scale(0);
+    transition: all 0.5s linear;
+    opacity:0;
+}
+
+.hvr-effect1:hover .hvr-effect1one
+{
+	transform: scale(0.9);
+	top:28px;
+	opacity:1;
+
+}
+.hvr-effect1two
+{	
+position: absolute;	
+bottom:28px;	
+right:4px;	
+background: #fff;	
+height: 1px;	
+width: 100%;
+opacity:0;
+transform: scale(0);
+transition: all 0.5s linear;
+}
+
+.hvr-effect1:hover .hvr-effect1two
+{
+	right:4px;
+	transform: scale(0.9);
+	opacity:1;
+
+}
+.hvr-effect1three
+{
+	position: absolute;
+	top: 0px;
+	left:22px;
+	background: #fff;
+	height:100%;
+	width: 1px;
+	transition: all 0.5s linear;
+	transform: scale(0.9);
+	opacity:0;
+}
+.hvr-effect1:hover .hvr-effect1three
+{
+	left:42px;
+	transform: scale(0.9);
+	opacity:1;
+
+}
+.hvr-effect1four
+{
+position: absolute;	
+top: 0px;
+right:35px;
+background: #fff;	
+height:100%;
+width: 1px;
+transform: scale(0.9);
+transition: all 0.5s linear;
+opacity:0;
+}
+
+.hvr-effect1:hover .hvr-effect1four
+{
+	right: 35px;
+    transform: scale(0.9);
+    opacity: 1;
+}
+
+.banner
+{
+	max-height: 100vh;
+	overflow: hidden;
+	position: relative;
+
+}
+
+.banner img
+{
+	transform:scale(1);
+	animation-name: imgzoom;
+	animation-duration: 10s;
+	animation-timing-function:ease-in-out;
+    animation-direction: alternate;
+	animation-iteration-count:infinite;
+
+}
+@keyframes imgzoom
+{
+	0%
+	{
+		transform:scale(1);
+
+	}
+
+   100%
+   {
+
+   	transform:scale(1.5);
+
+   }
+}
+
+
+.overlay
+{
+	
+position: absolute;	
+height: 100%;	
+width: 100%;	
+background: #4242427a;	
+top: 0;
+left: 0;	
+z-index: 1;
+/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#000000+0,000000+100&0.65+0,0+100;Neutral+Density */
+background: -moz-radial-gradient(center, ellipse cover,  rgba(0,0,0,0.65) 0%, rgba(0,0,0,0) 100%); /* FF3.6-15 */
+background: -webkit-radial-gradient(center, ellipse cover,  rgba(0,0,0,0.65) 0%,rgba(0,0,0,0) 100%); /* Chrome10-25,Safari5.1-6 */
+background: radial-gradient(ellipse at center,  rgba(0,0,0,0.65) 0%,rgba(0,0,0,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a6000000', endColorstr='#00000000',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+ /*opacity:0.9;
+ background: rgba(0, 0, 128, 0.39);*/
+ transition: .5s linear;
+ transform: scale(0);
+
+}
+
+.icofont-panda-face
+{
+ position: absolute;
+ top: 50%;
+ left:50%;
+ z-index:1;
+ font-size:50px;
+ animation-duration: 30s;
+ animation-name:panda;
+ color:#4f9810;
+}
+
+@keyframes panda
+{
+	0%{
+		top: 50%;
+		left: 10%;
+	}
+	20%{
+		top: 70%;
+		left: 30%;
+		transform: rotate(50deg);
+	}
+	40%{
+		top: 90%;
+		left: 50%;
+		transform: rotate(90deg);
+	}
+	60%{
+		top:70%;
+		left: 70%;
+		transform: rotate(180deg);
+	}
+	80%{
+		top: 400%;
+		left: 90%;
+		transform: rotate(-90deg);
+	}
+	100%{
+		top: 20%;
+		left: 20%;
+		transform: rotate(50deg);
+	}
+}
+
+.navbar-dark .navbar-nav .nav-link{
+	color: rgb(255 255 255);
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	padding: 5px 20px !important;
+	z-index: 0;
+	position: relative;
+}
+.navbar-dark .navbar-nav .nav-link:hover{
+	
+	color: #000;
+}
+.navbar-dark .navbar-nav .nav-item{
+	position: relative;
+}
+.navbar-dark .navbar-nav .nav-item:after{
+	content: " ";
+}
+.navbar-dark .navbar-nav .nav-item:before{
+	content: " ";
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	left: 0;
+	top: 0;
+	background: #ffffff;
+	transform: scale(0);
+	transition: all 0.3s
+}
+.navbar-dark .navbar-nav .nav-item:hover:before{
+	transform: scale(1);
+}*/
+
+/*.box
+{ background:black;
+	/*height:300px;*/
+	/*width:400px;
+	display:flex;
+	justify-content:flex-end;
+	align-items: center;
+
+}*/
+
+/*.ball
+{
+	width:50px;
+	height:50px ;
+	background:antiquewhite;*/
+
+/*}*/*/
+
+/*.hvr-effect{
+	position: relative;
+	overflow: hidden;
+}
+img{
+	transition: all 0.3s ease;
+}
+.ball{
+
+height: 100%;
+
+width: 100%;
+
+background: #232323bf;
+
+position: absolute;
+
+top: 0;
+
+left: 0;
+
+transform: scale(0.5);
+opacity: 0;
+transition: all 0.3s ease;
+}
+.hvr-effect:hover .ball{
+	transform: scale(1);
+	opacity: 1;
+}
+.hvr-effect:hover img{
+	transform: scale(1.1);
+}
+
+}
+.hvr-effect1 h1{
+	position: absolute;
+	color: #fff;
+	bottom: 30px;
+	left: 35px;
+	transition: all 0.5s linear;
+	opacity: 0;
+}
+.hvr-effect1:hover h1{	
+	bottom: 50px;
+	opacity: 1;
+}
+.hvr-effect1 p{
+	position: absolute;
+	bottom: 0;
+	color: #fff;
+	left: 35px;
+	transition: all 0.5s linear;
+	opacity: 0;
+}
+.hvr-effect1:hover p{
+	bottom: 20px;
+	opacity: 1;
+}
+.hvr-effect1 ul{
+	position: absolute;
+	top: 50px;
+	right: 400px;
+	opacity: 0;
+	transition: all 0.5s linear;
+}
+.hvr-effect1:hover ul{
+	top: 30px;
+	opacity: 1;
+}
+.hvr-effect1 ul li{
+    padding: 5px;
+}
+.hvr-effect1 ul li a{
+    color: #fff;
+    background: #0016e4;
+    height: 35px;
+    width: 35px;
+    display: block;
+    text-align: center;
+    line-height: 35px;
+    text-decoration: none;
+}
+.hvr-effect1 ul li a:hover{}
+
+.one{
+	position: absolute;
+    top: 20px;
+    left: 0px;
+    background: #fff;
+    height: 1px;
+    width: 59%;
+    transform: scaleX(0);
+    transition: all 0.5s linear;
+}
+
+.hvr-effect1:hover .one{
+	transform: scaleX(0.9);
+
+}
+.two{
+	
+position: absolute;
+	
+bottom: 20px;
+	
+left: 0;
+	
+background: #fff;
+	
+height: 1px;
+	
+width: 59%;
+	
+transform: scaleX(0);
+transition: all 0.5s linear;
+}
+.hvr-effect1:hover .two{
+	transform: scaleX(0.9);
+
+}
+.three{
+	position: absolute;
+	top: 20px;
+	right: 358px;
+	background: #fff;
+	height: 87%;
+	width: 1px;
+	transform: scaleX(0);
+	transition: all 0.5s linear;
+}
+.hvr-effect1:hover .three{
+	right: 373px;
+	transform: scaleX(0.9);
+
+}
+.four{
+	
+position: absolute;
+	
+top: 20px;
+	
+left: 10px;
+	
+background: #fff;
+	
+height: 87%;
+	
+width: 1px;
+	
+transform: scaleX(0);
+	
+transition: all 0.5s linear;
+}
+.hvr-effect1:hover .four{
+	left: 25px;
+	transform: scaleX(0.9);
+
+}
+.banner{
+	max-height: 100vh;
+	overflow: hidden;
+	position: relative;
+}
+.banner img{
+	transform: scale(1);
+	animation-name: imgzoom;
+	animation-duration:20s;
+	animation-iteration-count: infinite;
+	animation-timing-function: ease-in-out;
+	animation-direction: alternate;
+}
+@keyframes imgzoom{
+	0%{
+		transform: scale(1);
+	}
+	100%{
+		transform: scale(1.5);
+	}
+}
+
+.icofont-monkey-face{
+	position: absolute;
+	top: 50%;
+	left: 10%;
+	z-index: 1;
+	font-size: 50px;
+	color: #fff;
+	animation-name: monkey;
+	animation-duration: 20s;
+	animation-direction: alternate;
+	animation-iteration-count: infinite;
+}
+@keyframes monkey{
+	0%{
+		top: 50%;
+		left: 10%;
+	}
+	20%{
+		top: 70%;
+		left: 30%;
+		transform: rotate(50deg);
+	}
+	40%{
+		top: 90%;
+		left: 50%;
+		transform: rotate(90deg);
+	}
+	60%{
+		top:70%;
+		left: 70%;
+		transform: rotate(180deg);
+	}
+	80%{
+		top: 400%;
+		left: 90%;
+		transform: rotate(-90deg);
+	}
+	100%{
+		top: 20%;
+		left: 20%;
+		transform: rotate(50deg);
+	}
+}
+.navbar-dark .navbar-nav .nav-link{
+	color: rgb(255 255 255);
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	padding: 5px 20px !important;
+	z-index: 0;
+	position: relative;
+}
+.navbar-dark .navbar-nav .nav-link:hover{
+	
+	color: #000;
+}
+.navbar-dark .navbar-nav .nav-item{
+	position: relative;
+}
+.navbar-dark .navbar-nav .nav-item:after{
+	content: " ";
+}
+.navbar-dark .navbar-nav .nav-item:before{
+	content: " ";
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	left: 0;
+	top: 0;
+	background: #ffffff;
+	transform: scale(0);
+	transition: all 0.3s
+}
+.navbar-dark .navbar-nav .nav-item:hover:before{
+	transform: scale(1);
+}*/
